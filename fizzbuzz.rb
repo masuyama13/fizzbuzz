@@ -1,5 +1,5 @@
-class Fizzbuzz
-  def fizzbuzz(num)
+module Fizzbuzz
+  def self.run(num)
     if num % 15 == 0
       "FizzBuzz"
     elsif num % 3 == 0
